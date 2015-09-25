@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+   <item 
+       android:id="@+id/videoPlayer_menu_item"
+       android:title="@string/wificar_menu_item_player"/>
+    <!--  <item 
+        android:id="@+id/disconnect_menu_item" 
+        android:title="@string/wificar_menu_item_disconnect"></item>
+    <item 
+        android:id="@+id/exit_menu_item" 
+        android:title="@string/wificar_menu_item_exit"></item>
+    <item 
+        android:id="@+id/setting_menu_item" 
+        android:title="@string/wificar_menu_item_setting"></item>
+    <item 
+        android:title="@string/wificar_menu_item_video" 
+        android:id="@+id/video_recoder_menu_item">
+        <menu>
+            <item 
+                android:title="@string/wificar_menu_item_video_start" 
+                android:id="@+id/video_record_start_item"></item>
+            <item 
+                android:title="@string/wificar_menu_item_video_end" 
+                android:id="@+id/video_record_stop_item"></item>
+        </menu>
+    </item>
+    -->
+</menu>

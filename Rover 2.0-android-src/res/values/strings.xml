@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, WificarActivity!</string>
+    <string name="app_name">CAR 2.0</string>
+    <string name="wificar_menu_item_player">VideoPlaer</string>
+    <!--  <string name="wificar_menu_item_disconnect">Disconnect</string>
+    <string name="wificar_menu_item_exit">Exit</string>
+    <string name="wificar_menu_item_setting">Setting</string>
+    <string name="wificar_menu_item_video">Video Recorder</string>
+    <string name="wificar_menu_item_video_start">Start Record</string>
+    <string name="wificar_menu_item_video_end">Stop Record</string>
+    -->
+</resources>

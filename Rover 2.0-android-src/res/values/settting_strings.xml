@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settting_category_label">Setting</string>
+    <string name="information_category_label">Information</string>
+   
+    <string name="setting_category_host_label">Car IP</string>
+    <string name="setting_category_port_label">Car Port</string>
+     
+    <!-- <string name="setting_category_account_label">Account</string> 
+    <string name="setting_category_password_label">Password</string> -->
+    
+    
+   
+    <string name="information_category_version_label">Software Version:</string>
+    <string name="information_category_firmware_label">Firmware Version:</string>
+    <string name="information_category_device_ssid_label">CAR-CAMERA:</string>
+    
+    <!-- <string-array name="controller_type">
+        <item>Single Stick</item>
+        <item>Double Axis</item>
+    </string-array>
+    <string-array name="controller_type_index">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="setting_video_folder_label">Video Folder</string> -->
+    
+    
+    
+</resources>

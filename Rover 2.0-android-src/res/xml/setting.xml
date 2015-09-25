@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+ >   
+    <intent android:action="android.intent.action.MAIN"
+             android:targetPackage="com.wificar"
+             android:targetClass="com.wificar.SettongActivity1"/>
+        <!--  <Preference
+        android:key="wificar"
+        android:layout="@layout/setting_info"
+        >   
+    </Preference>
+        <PreferenceCategory android:title="@string/settting_category_label">
+        
+        <Preference 
+        	android:key="wificar_host" 
+        	android:title="@string/setting_category_host_label"></Preference>
+        <Preference 
+        	android:key="wificar_port" 
+        	android:title="@string/setting_category_port_label"></Preference>
+        <EditTextPreference 
+        	android:key="wificar_username" 
+        	android:title="@string/setting_category_account_label"></EditTextPreference>
+<EditTextPreference 
+        	android:key="wificar_password" 
+        	android:title="@string/setting_category_password_label"></EditTextPreference> -->
+        
+        
+        
+        
+        <!--  <ListPreference 
+        	android:key="wificar_controller" 
+        	android:title="控制模式" 
+        	android:dialogTitle="選擇控制方式" 
+        	android:entries="@array/controller_type" 
+        	android:entryValues="@array/controller_type_index" ></ListPreference>
+        <EditTextPreference 
+        	android:key="wificar_video_folder" 
+        	android:title="@string/setting_video_folder_label"></EditTextPreference> 
+        	
+        	 </PreferenceCategory>
+    <PreferenceCategory 
+    		android:title="@string/information_category_label">
+        <Preference 
+        	android:key="wificar_version" 
+        	android:summary="0.1" 
+        	android:title="@string/information_category_version_label"></Preference>
+        <Preference 
+        	android:key="wificar_firmware_version" 
+        	android:title="@string/information_category_firmware_label"></Preference>
+        <Preference 
+        	android:key="device_ssid_version" 
+        	android:title="@string/information_category_device_ssid_label"></Preference>
+    </PreferenceCategory>
+        	-->
+        
+</PreferenceScreen>

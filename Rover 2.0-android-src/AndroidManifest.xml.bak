@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.rover3"
+      android:versionCode="4"
+      android:versionName="1.4">
+    <uses-sdk android:minSdkVersion="8" />
+<!--     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"></uses-permission> -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+ 	<supports-screens 
+			android:smallScreens="true"
+            android:normalScreens="true"
+            android:largeScreens="true"
+            android:anyDensity="true" />
+ 	
+    <application android:label="@string/app_name" android:icon="@drawable/wificar_icon" android:debuggable="true">
+        <activity 
+            android:name="com.wificar.WificarActivity" 
+            android:label="@string/app_name" 
+            android:configChanges="keyboardHidden|orientation|screenLayout" 
+            android:screenOrientation="landscape"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+            </intent-filter>
+        </activity>
+         <activity android:name="com.wificar.Gallery" android:label="@string/app_name"></activity>
+		 <activity android:name="com.wificar.GetImagesFromSDCard" android:label="@string/app_name"></activity>
+        <activity android:name="com.wificar.SettingActivity" android:screenOrientation="landscape"></activity>
+        <activity android:name="com.wificar.SplashActivity" android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+<activity android:name="com.wificar.ShareActivity" android:label="@string/app_name" android:screenOrientation="landscape" ></activity>
+<activity android:name="com.wificar.ImageGalleryActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+<activity android:name="com.wificar.VideoGalleryActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+
+<activity android:name="com.wificar.mediaplayer.MediaPlayerActivity" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"   android:screenOrientation="landscape">	        	
+                <intent-filter>
+	                <action android:name="android.intent.action.VIEW" />
+	                <category android:name="android.intent.category.DEFAULT" />
+                    <data android:mimeType="video/x-msvideo" />
+                    <data android:mimeType="video/avi" />
+                </intent-filter>
+	       	</activity>  
+  <receiver 
+	        	android:name="PhoneStateReceiver">
+				<intent-filter>
+					<action android:name="android.intent.action.PHONE_STATE" />
+				</intent-filter>
+  </receiver>
+    </application>
+</manifest>

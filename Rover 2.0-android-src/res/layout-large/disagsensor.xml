@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+     <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" >
+
+       <ImageView
+           android:id="@+id/imageView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/disgsensor"
+           android:orientation="vertical" />
+
+       <Button
+           android:id="@+id/okbutton"
+           android:layout_width="80dp"
+           android:layout_height="50dp"
+           android:text="OK"
+           android:textSize="18dp"
+           android:layout_alignBottom="@+id/imageView1"
+           android:layout_alignRight="@+id/imageView1" 
+           android:layout_marginRight="40dp"
+           android:layout_marginBottom="20dp"/>
+   </RelativeLayout>
+
+</LinearLayout>
